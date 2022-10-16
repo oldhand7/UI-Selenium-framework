@@ -1,0 +1,34 @@
+Step 1: Plug in to locate elements are :
+     fire bug and firepath in  firefox
+     inspect option in Chrome
+     Reference :https://www.seleniumhq.org/docs/03_webdriver.jsp 
+     Class
+     ID
+     NAME
+     CSS
+     XPATH
+
+Step 2: Create folder to save various folder ans test set
+
+Step 3: Add selenium libraries and add the lib folder created
+
+Step 4: Download testNG libraries and add the lib folder created
+
+Step 5 : Add external jar to build bath (if using eclipse)
+
+Step 6 :install PIP and selenium :
+    sudo easy_install pip
+    sudo pip install -U selenium
+
+Step 7: make sure geckodriver is under PATH = /usr/local/bin
+
+    verify $PATH under open ~/.bash_profile
+
+    this steps SOLVED for me on ubuntu firefox 50.
+
+    Download geckodriver
+    Copy geckodriver in /usr/local/bin
+
+    On macOS with Homebrew already installed you can simply run the Terminal command
+
+    $ brew install geckodriver
